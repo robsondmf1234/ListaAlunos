@@ -2,7 +2,6 @@ package com.example.listaalunoactivity;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RatingBar;
@@ -49,7 +48,7 @@ public class FormularioHelper {
         campoSite.setText(aluno.getSite());
         campoNota.setProgress(aluno.getNota().intValue());
         carregaImagem(aluno.getCaminhoFoto());
-        
+
         this.aluno = aluno;
     }
 
